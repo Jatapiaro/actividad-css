@@ -1,3 +1,8 @@
-body {
-    background-color: #ff0000;
-}
+/* Import normalize css */
+@import '~normalize.css/normalize.css';
+
+/* Import base components */
+@import './base/_base.css';
+
+/* Import components */
+@import './components/_navbar.css';
