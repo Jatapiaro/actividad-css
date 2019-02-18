@@ -51,12 +51,6 @@ module.exports = () => {
         plugins: [
             CSSExtract
         ],
-        // Supress and error related to spotify api
-        node: {
-            fs: 'empty',
-            net: 'empty',
-            tls: 'empty'
-        },
         devtool: "cheap-module-eval-source-map",
         devServer: {
             contentBase: path.join(__dirname, 'public'),
