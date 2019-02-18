@@ -47,7 +47,7 @@ Sin embargo, si aún quedan dudas, en la sección de abajo dejo un pequeño vide
 
 ## Video del proyecto y explicación
 
-[![Vídeo explicación](https://img.youtube.com/vi/AguOjUaDg8k/0.jpg)](https://youtu.be/AguOjUaDg8k)
+[![Vídeo explicación](https://img.youtube.com/vi/AguOjUaDg8k/1.jpg)](https://youtu.be/AguOjUaDg8k)
 
 # Como instalar
 
