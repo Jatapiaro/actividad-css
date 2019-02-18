@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../components/Card';
+import Image from './../assets/images/avengers.jpeg';
 
 export default class Home extends React.Component {
 
@@ -33,7 +34,7 @@ export default class Home extends React.Component {
                 <div className="container">
                     
                     <h1>Bienvenido</h1>
-                    <p>En este sitio podrás navegar y encontrar información de algunos comics de Marvel.</p>
+                    <p>En este sitio podrás navegar y encontrar información de algunos cómics de Marvel.</p>
 
                     <div className="cards">
                         {

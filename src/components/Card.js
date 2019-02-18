@@ -6,7 +6,7 @@ export default class Card extends React.Component {
         return (
             <div className="card">
                 <div className="info-hover">
-                    <div className="title"><b>Personajes del comic: </b></div>
+                    <div className="title"><b>Personajes del cómic: </b></div>
                     <div className="characters">
                         {
                             this.props.comic.characters.map((c, i) =>
@@ -30,7 +30,7 @@ export default class Card extends React.Component {
                         {
                             this.props.comic.characters.length > 0 &&
                             <div className="title">
-                                <b> Personajes del comic: </b>
+                                <b> Personajes del cómic: </b>
                             </div>
                         }
                         {

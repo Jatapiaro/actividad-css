@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../components/Card';
+import Image from './../assets/images/spider.jpg';
 
 export default class SpiderGirl extends React.Component {
 
@@ -33,7 +34,7 @@ export default class SpiderGirl extends React.Component {
                 <div className="container">
 
                     <h1>Spider-Girl</h1>
-                    <p>En este sitio podrás navegar por algunos de los comics de Spider-Girl</p>
+                    <p>En este sitio podrás navegar por algunos de los cómics de Spider-Girl</p>
 
                     <div className="cards">
                         {
@@ -51,5 +52,5 @@ export default class SpiderGirl extends React.Component {
 }
 
 SpiderGirl.defaultProps = {
-    image: 'https://cinergetica.com.mx/wp-content/uploads/2014/10/Spider-Girl.jpg'
+    image: Image
 }

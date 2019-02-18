@@ -594,10 +594,10 @@ body {
     color: #fff;
     display: flex;
     height: 50px;
-    margin-top: 25px;
     left: 0;
     right: 0;
     text-align: left;
+    position: relative;
 }
 
 .footer > p {
