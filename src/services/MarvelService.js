@@ -1,10 +1,5 @@
 export default class MarvelService {
 
-    /*
-    * 9085 - Avengers Series
-    * 16410 - Guardianes de la galaxia
-    */
-
     /**
      * 
      * @param {*} httpService 
@@ -14,10 +9,13 @@ export default class MarvelService {
         this.route = "https://gateway.marvel.com:443/v1/public";
         this.series = {
             AVENGERS: 9085,
-            GUARDIANS: 16410
+            GUARDIANS: 16410,
+            SPIDERGIRL: 417,
         };
         this.comics = {
-            AVENGERS: 'https://api.myjson.com/bins/10npdu'
+            AVENGERS: 'https://api.myjson.com/bins/10npdu',
+            GUARDIANS: 'https://api.myjson.com/bins/iv242',
+            SPIDERGIRL: 'https://api.myjson.com/bins/1283h6',
         }
     }
 

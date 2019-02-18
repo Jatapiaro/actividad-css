@@ -42,11 +42,11 @@ Navbar.defaultProps = {
     navLinks: [
         {
             name: 'Guardianes de la Galaxia',
-            href: '/'
+            href: '/guardians-of-the-galaxy'
         },
         {
-            name: 'Dr. Strange',
-            href: '/'
+            name: 'Spider-Girl',
+            href: '/spider-girl'
         }
     ]
 }

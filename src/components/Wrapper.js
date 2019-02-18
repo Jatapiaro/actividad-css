@@ -6,6 +6,8 @@ import Footer from './Footer';
 import Home from '../pages/Home';
 import HttpService from '../services/HttpService';
 import MarvelService from '../services/MarvelService';
+import Guardians from '../pages/Guardians';
+import SpiderGirl from '../pages/SpiderGirl';
 
 export default class Wrapper extends React.Component {
 
@@ -32,6 +34,22 @@ export default class Wrapper extends React.Component {
                                         {...props} />
                                 }
                             exact={true} />
+                            <Route
+                                path="/guardians-of-the-galaxy"
+                                render={(props) =>
+                                    <Guardians
+                                        marvelService={this.marvelService}
+                                        {...props} />
+                                }
+                                exact={true} />
+                            <Route
+                                path="/spider-girl"
+                                render={(props) =>
+                                    <SpiderGirl
+                                        marvelService={this.marvelService}
+                                        {...props} />
+                                }
+                                exact={true} />
                         </Switch>
                     </BrowserRouter>
                 <Footer />

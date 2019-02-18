@@ -30,7 +30,7 @@ export default class HttpService {
                 "Accept": "application/json"
             }
         }
-        config.params['apikey'] = '';
+        config.params['apikey'] = 'YOUR_MARVEL_API_KEY';
         return config;
     }
 

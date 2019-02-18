@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../components/Card';
 
-export default class Home extends React.Component {
+export default class Guardians extends React.Component {
 
     state = {
         seriesComics: []
@@ -11,7 +11,7 @@ export default class Home extends React.Component {
      * Called before the page is loaded
      */
     componentWillMount() {
-        this.props.marvelService.getComics()
+        this.props.marvelService.getComics('GUARDIANS')
             .then((res) => {
                 this.setState({
                     seriesComics: res
@@ -21,24 +21,23 @@ export default class Home extends React.Component {
                 console.log(err);
             });
     }
-
-
+    
     /**
-     * Renders the component
+     * Renders the content
      */
     render() {
         return (
             <div className="content">
-                <img className="banner-image" src={this.props.image}/>
+                <img className="banner-image" src={this.props.image} />
                 <div className="container">
-                    
-                    <h1>Bienvenido</h1>
-                    <p>En este sitio podrás navegar y encontrar información de algunos comics de Marvel.</p>
+
+                    <h1>Guardianes de la galaxia</h1>
+                    <p>En este sitio podrás navegar por algunos de los comics de Guardianes de la galaxia</p>
 
                     <div className="cards">
                         {
-                            this.state.seriesComics.map((sc, i) => 
-                                <Card key={i} comic={sc}/>
+                            this.state.seriesComics.map((sc, i) =>
+                                <Card key={i} comic={sc} />
                             )
                         }
                     </div>
@@ -50,6 +49,6 @@ export default class Home extends React.Component {
 
 }
 
-Home.defaultProps = {
-    image: "https://www.geekinsider.com/wp-content/uploads/2015/03/cover.jpeg"
+Guardians.defaultProps = {
+    image: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2017/03/Top-15-Guardians-of-the-Galaxy-Stories-Featured-Image.jpg?q=50&fit=crop&w=798&h=407&dpr=1.5"
 }
