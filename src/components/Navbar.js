@@ -2,12 +2,17 @@ import React from 'react';
 
 export default class Navbar extends React.Component {
 
+    /**
+    * Renders the component
+    */
     render() {
         return (
             <div className="nav">
 
                 <div className="nav-header">
-                    <a href="/" className="nav-title">SpotyApp</a>
+                    <a href="/" className="nav-title">
+                        MarvelApp
+                    </a>
                 </div>
 
                 <div className="nav-btn">
@@ -36,11 +41,11 @@ export default class Navbar extends React.Component {
 Navbar.defaultProps = {
     navLinks: [
         {
-            name: 'México',
+            name: 'Guardianes de la Galaxia',
             href: '/'
         },
         {
-            name: 'Japón',
+            name: 'Dr. Strange',
             href: '/'
         }
     ]

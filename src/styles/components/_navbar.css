@@ -17,6 +17,15 @@
     text-decoration: none;
 }
 
+.nav > .nav-header > .nav-title > i {
+    padding-right: 5px;
+}
+
+.nav > .nav-header > .nav-title:hover {
+    color: #e23636;
+    cursor: pointer;
+}
+
 .nav > .nav-btn {
     display: none;
 }
@@ -35,7 +44,7 @@
 }
 
 .nav > .nav-links > a:hover {
-    background-color: rgba(29,185,84, 0.5);
+    background-color: rgba(226, 54, 54, 0.5);
 }
 
 .nav > #menuButton {
@@ -55,15 +64,23 @@
         padding: 13px;
         width: 50px;
     }
+    
     .nav > .nav-btn > label:hover {
-        background-color: rgba(1, 1, 1, 0.3);
+        background-color: rgba(0, 0, 0, 0.3);
+        cursor: pointer;
     }
+
+    .nav > .nav-btn > label:hover > span {
+        border-top: 2px solid #e23636;
+    }
+    
     .nav > .nav-btn > label > span {
         display: block;
         border-top: 2px solid #eee;
         height: 10px;
         width: 25px;
     }
+
     .nav > .nav-links {
         background-color: #333;
         display: block;

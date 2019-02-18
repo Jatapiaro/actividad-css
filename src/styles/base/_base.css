@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 * {
     box-sizing: border-box;
 }
 
 body {
+    background-color: #212121;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
