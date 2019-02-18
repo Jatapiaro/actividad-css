@@ -4,7 +4,7 @@ Este repositorio esta hecho para la tarea de hojas de estilo. Recomiendo leer es
 
 [Link a la página](http://actividadcss.totoringo.com/)
 
-O en dado caso de no querer leer, favor de revisar el siguiente vídeo.
+O en dado caso de no querer leer, favor de revisar el siguiente [vídeo](https://youtu.be/AguOjUaDg8k).
 
 ## Se utilizó ReactJs
 
@@ -46,6 +46,8 @@ En la carpeta `public` quedó un archivo `.htaccess`, esto porque React hace `Cl
 Sin embargo, si aún quedan dudas, en la sección de abajo dejo un pequeño video.
 
 ## Video del proyecto y explicación
+
+[![Video explicación](https://img.youtube.com/vi/AguOjUaDg8k/0.jpg)](https://www.youtube.com/watch?v=[AguOjUaDg8k](https://youtu.be/AguOjUaDg8k))
 
 # Como instalar
 
