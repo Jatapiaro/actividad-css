@@ -605,6 +605,7 @@ body {
     height: 50px;
     position: relative;
     width: 100%;
+    z-index: 100;
 }
 
 .nav > .nav-header {
