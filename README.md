@@ -16,10 +16,10 @@ Como se específica en la sección ahora denominada **Descripción anterior**, h
 Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.be/AguOjUaDg8k?t=601) se dice claramente que de querer abrir el archivo directamente **NO VA A FUNCIONAR**. Ahora si quisiera correrlo así tal cual con un clic, pues bueno:
 
  1. Instale AMPPS ya trae todo
- 2. Abra los archivos de la aplicación AMMP y busqué la carpeta www
+ 2. Abra los archivos de la aplicación AMMPS y busqué la carpeta www
  3. Ponga la carpeta del código en la carpeta www
  4. En la interfaz de AMMPS de clic en el icono del Mundo
- 5. Navege a `el_proyecto/public/index.html`
+ 5. Navegue a `el_proyecto/public/index.html`
  6. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
 
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
@@ -44,11 +44,11 @@ Comenzaremos por la sesión 10. Donde habló de los editores de texto. Yo ocupe 
 
 Pero hagamos **énfasis** en los temas vistos:
 
-### 1.1Etiquetas de HTML
+### 1.1 Etiquetas de HTML
  Tenemos muchos, empezando por todo lo que hay dentro de `src/components` y `src/pages` |
-### 1.2Estructura de HTML 
+### 1.2 Estructura de HTML 
 Tan solo revise `public/index.html`
-### 1.3HTML5
+### 1.3 HTML5
 A fin de cuentas escribí HTML5, lo que sabía de HTML aplicaba en react salvo porque `class` en los tags debe cambiarse a `className` 
 ### 1.4 DOCTYPE 
 Tan solo revise `public/index.html`
@@ -335,7 +335,7 @@ Dar un vistazo a `src/styles/components/_navbar.css` en las líneas 39-45:
 Ahí le di estilo a un hypervínculo.
 
 ### 4.6 Formato del menú de navegación.
-Dar un vistazo a `src/styles/components/_navbar.css``
+Dar un vistazo a `src/styles/components/_navbar.css`
 Ahí está eso.
 
 ### 4.7 Figure
@@ -446,7 +446,7 @@ Ahora marquemos cada parte de los criterios a evaluar:
  2.  **Se valorará el modelo de cajas:** Esto lo demostré en la sección 3.2 :white_check_mark:
  3. **Se valorará el uso adecuado de editores de texto como pueden ser: Notepad++, Sublime Text, CoffeCup Free Editor o hasta el mismo blog de notas:** Hasta en el video se ve que uso VS Code. :white_check_mark:
  4. **Se valorará el buen uso de fondo, fuentes, y color que se asigne a las hojas de estilo:** Lo dejo a su criterio. Ya mencione en la sección **6.2** lo que puede ser que este mal.  :warning:
- 5. Se valorará el adecuado uso de propiedades y valores de las referencias CSS 2.1: Pues esta es imposible de cumplir para cualquiera. Ya explique porque, en la sección **6.1**. Ni en clase esto se cumplió pues tan solo `box-sixing` no está disponible en esa versión. :white_check_mark::warning::x::confused: 
+ 5. **Se valorará el adecuado uso de propiedades y valores de las referencias CSS 2.1:** Pues esta es imposible de cumplir para cualquiera. Ya explique porque, en la sección **6.1**. Ni en clase esto se cumplió pues tan solo `box-sixing` no está disponible en esa versión. :white_check_mark::warning::x::confused: 
 
 Para hacer todo el research y ver que las cosas si se cumplen, baje sus presentaciones y fui diapositiva por diapositiva, verificando lo que se decía, y **haciendo uso adecuado de VS code** fui buscando cada propiedad.
 ¿Cómo?. Pues simplemente fui a la sección search y buscaba. Ahí veía cada archivo. Le daba clic y veía las cosas,
@@ -454,16 +454,17 @@ En dado caso de que se quisiera ir directo a un archivo el comando **Ctrl+P** o 
 
 Creo que lo de JS debió ser lo menos importante. Me gusta entregar tareas que al menos hagan algo. Aquí al menos aprendí a ver como funcionaba el API de Marvel. Quería traer datos reales, y ver una forma interesante de desplegarlo. 
 
-Además quiero aclarar que si quería algo 100% especifico, lo ponga tal cual en la tarea. Desde día uno, las tareas de esta materia tienen ese problema, no se entiende ni se específica exactamente que se quiere, debemos esperar a que en la clase se diga que es y esto impide adelantar a veces un podo de las mismas. Por no decir que puede llevar a hacer las cosas a tontas a locas y a ciegas. 
+Además quiero aclarar que si quería algo 100% especifico, lo ponga tal cual en la tarea. Desde día uno, las tareas de esta materia tienen ese problema, no se entiende ni se específica exactamente qué se quiere, debemos esperar a que en la clase se diga que es y esto impide adelantar a veces un poco de las mismas. Por no decir que puede llevar a hacer las cosas a tontas a locas y a ciegas. 
 
 En la sesión 14 se dijo algo similar a esto:
 
 **Profesora:** Hacer una página principal, que tenga algunos hypervinculos, pero repasar los selectores y como se aplican. 
 
 En la  grabación 11_sesión 13: 
+
 **Profesora (1:05:15)** Que tienen que hacer como tarea. Pues es diseñar una página. Ok prácticamente incluyendo hojas de estilo, incluyendo a los elementos que solicita. Lo pueden hacer como quieran, ya sea como documento embebido o como un documento css adicional. Manejar sobre todo algunos de los formatos que hemos vistos hasta el momento. Puede ser la página sencilla lo importante es ir enriqueciendo los contenidos, aquí...uy la batería se esta agotando.
 
-**Pregunta**  Profesora, tengo tres preguntas de la tarea. ¿Exactamente qué hay que hcaer?, la segunda ¿Es obligatorio utilizar CSS o podemos utilizar SCSS (a fin de cuentas se traspila a CSS)? También he escuchado que ha hablado de que después va a mostrar algunas plantillas. Significa que ¿va a mostrar bootstrap? ¿en la tarea se puede hacer uso de Bootstrap? **Por cierto ¿cuáles son los elementos que solicita?**
+**Pregunta**  Profesora, tengo tres preguntas de la tarea. ¿Exactamente qué hay que hacer?, la segunda ¿Es obligatorio utilizar CSS o podemos utilizar SCSS (a fin de cuentas se transpila a CSS)? También he escuchado que ha hablado de que después va a mostrar algunas plantillas. Significa que ¿va a mostrar bootstrap? ¿en la tarea se puede hacer uso de Bootstrap? **Por cierto ¿cuáles son los elementos que solicita?**
 
 **Profesora (1:06:57) [Respondiendo a la pregunta anterior]**:  Es CSS... o sea si pero es CSS lo que vamos a ocupar......(Responde a la pregunta ¿cuáles son los elementos que solicita?):  **No especifica ahí los elementos que solicita, ok, pero al menos incluir algún encabezado, un pie de página, un cuerpo, ok y elementos prácticamente de los que hemos visto en las sesiones. **
 
