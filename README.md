@@ -1,4 +1,5 @@
 
+
 # Actividad Hojas de Estilo
 
 Debido al comentario:
@@ -8,7 +9,7 @@ Debido al comentario:
 > referencia a documentos de java script,que no son el tema que se está
 > evaluando en este curso. Falto hacer énfasis en los temas vistos.
 
-El cual se me fue hecho en la entrega de la tarea, en la cual, se me fue asignada una calificación de 5, he decidido actualizar este README, pues puede ser que no haya sabido leer todo el código que hay, leer instrucciones o ver un video de manera atenta.
+El cual fue puesto como comentario en la entrega de la tarea y en la que se me fue asignada una calificación de 5. He decidido actualizar este README, pues puede ser que no haya sabido leer todo el código que hay, leer instrucciones o ver un video de manera atenta.
 A continuación, refutare cada parte del comentario:
 
 # ¿No incluyó más que una pantalla con encabezado y no aparece la información del video?
@@ -446,7 +447,7 @@ Ahora marquemos cada parte de los criterios a evaluar:
  2.  **Se valorará el modelo de cajas:** Esto lo demostré en la sección 3.2 :white_check_mark:
  3. **Se valorará el uso adecuado de editores de texto como pueden ser: Notepad++, Sublime Text, CoffeCup Free Editor o hasta el mismo blog de notas:** Hasta en el video se ve que uso VS Code. :white_check_mark:
  4. **Se valorará el buen uso de fondo, fuentes, y color que se asigne a las hojas de estilo:** Lo dejo a su criterio. Ya mencione en la sección **6.2** lo que puede ser que este mal.  :warning:
- 5. **Se valorará el adecuado uso de propiedades y valores de las referencias CSS 2.1:** Pues esta es imposible de cumplir para cualquiera. Ya explique porque, en la sección **6.1**. Ni en clase esto se cumplió pues tan solo `box-sixing` no está disponible en esa versión. :white_check_mark::warning::x::confused: 
+ 5. **Se valorará el adecuado uso de propiedades y valores de las referencias CSS 2.1:** Pues esta es imposible de cumplir para cualquiera. Ya explique porque, en la sección **6.1**. Ni en clase esto se cumplió pues tan solo `box-sizing` no está disponible en esa versión. :white_check_mark::warning::x::confused: 
 
 Para hacer todo el research y ver que las cosas si se cumplen, baje sus presentaciones y fui diapositiva por diapositiva, verificando lo que se decía, y **haciendo uso adecuado de VS code** fui buscando cada propiedad.
 ¿Cómo?. Pues simplemente fui a la sección search y buscaba. Ahí veía cada archivo. Le daba clic y veía las cosas,
