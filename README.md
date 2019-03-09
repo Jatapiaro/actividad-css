@@ -1,5 +1,287 @@
 # Actividad Hojas de Estilo
 
+Debido al comentario:
+
+> Jacobo, en tu código fuente o incluyes más que una pantalla con un
+> encebezado, no aparece la información que se ve en el video. Hace
+> referencia a documentos de java script,que no son el tema que se está
+> evaluando en este curso. Falto hacer énfasis en los temas vistos.
+
+El cual se me fue hecho en la entrega de la tarea, en la cual, se me fue asignada una calificación de 5, he decidido actualizar este README, pues puede ser que a pesar del grado académico, no sepa leer código, leer instrucciones o ver un video de manera atenta.
+A continuación, refutare cada parte del comentario:
+
+# ¿No incluyó más que una pantalla con encabezado y no aparece la información del video?
+Como se específica en la sección ahora denominada **Descripción anterior**, hay unas letras en negritas especificando, que para visualizar todo de manera correctamente, se puso un servidor con la página. Si se quisiera correrlo de manera local, existen instrucciones precisas al final de este documento. Esto porque React hace Client Size Rendering en lugar de Server Side Rendering. 
+Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.be/AguOjUaDg8k?t=601) se dice claramente que de querer abrir el archivo directamente **NO VA A FUNCIONAR**. Ahora si quisiera correrlo así tal cual con un clic, pues bueno:
+
+ 1. Instale AMPPS ya trae todo
+ 2. Abra los archivos de la aplicación AMMP y busqué la carpeta www
+ 3. Ponga la carpeta del código
+ 4. Entre a `public` y de clic en `index.html` y funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
+
+Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
+
+# Hace  referencia a documentos de javascript que no son el tema que se está  evaluando en este curso.
+Precisamente por eso hice el video, porque sabía que podría traer problemas. Desde que escuche decir que usted usaba Bootstrap y no Webpack, me dio a entender que desconoce muchas cosas actuales sobre desarrollo. Así que por eso hice el video, para que viera que ahí hay HTML, que hay Javascript pero que lo importante seguían siendo el CSS. Para eso se hizo el video, para que no se dijera que no hay nada de contenido HTML, y para enfatizar que aunque había JS, lo importante era CSS. Parte de hacerlo así es separar los archivos, tener un mejor orden, y no importar un montón de archivos a un documento.**Así que sí, se que JS no es el tema de esta clase aunque se llame "Lenguajes", pero lo que se pidió CSS está ahí**. A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué como se había usado y ya, si es una tarea de CSS, pues se leen los estilos de CSS. 
+
+> ¿no?
+
+# Falto hacer énfasis en los temas vistos.
+Bien, ya que se habla de que falto hacer énfasis en los temas vistos, iremos paso a paso, presentación por presentación. Y descubriremos juntos, si se hizo énfasis o no.
+> ¿no?
+
+## Sesión_10.pdf
+Comenzaremos por la sesión 10. Donde habló de los editores de texto. Yo ocupe **VS Code**, así que considero que el siguiente criterio de evaluación de la tarea, fue satisfactorio:
+
+> Se valorará el uso adecuado de editores de texto como pueden ser:
+> Notepad++, Sublime Text, CoffeCup Free Editor o hasta el mismo blog de
+> notas.
+
+¿Me pregunto qué habría pasado si todo lo hubiera hecho con **vi**? ¿Me habría ido peor?
+
+Pero hagamos **énfasis** en los temas vistos:
+
+### Etiquetas de HTML
+ Tenemos muchos, empezando por todo lo que hay dentro de `src/components` y `src/pages` |
+### Estructura de HTML 
+Tan solo revise `public/index.html`
+### HTML5
+A fin de cuentas escribí HTML5, lo que sabía de HTML aplicaba en react salvo porque `class` en los tags debe cambiarse a `className` 
+### DOCTYPE 
+Tan solo revise `public/index.html`
+### Atributos
+Atributos globales como id, se pueden encontrar en `public/index.html`, en la línea 12, con el contenido `<div id="app"></div>`. 
+Otro ejemplo esta en `src/components/Navbar.js` en la línea 25 y con contenido `<input type="checkbox" id="menuButton"/>`. 
+Atributos `class` hay muchísimos, revise `src/components` y `src/pages`. 
+Otros atributos como meta están en `public/index.html` en la línea 5 y 6 con contenido:
+
+    <meta charset="UTF-8*">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+### Etiquetas de HTML 
+Tenemos muchos, empezando por todo lo que hay dentro de `src/components` y `src/pages`
+
+### Reglas de estructura
+
+ 1. Etiquetas de cierre automático. Si hay, en `components/navbar.js` de las líneas 20-21 están `<span /><span /><span />`
+ 2. Etiquetas insensibles a mayúsculas o minúsculas: Irrelevante pero están en minúsculas
+ 3. Atributo de manifiesto: no hay en el proyecto.
+
+### HEAD
+Pues si, hay un HEAD en `public/index.html`, que contiene un 
+
+ 1. Título
+ 2. Meta
+ 3. Link
+
+Lo que no tiene es un Script, porque generalmente se cargan al final. Tampoco tiene un style porque se ve cochino. Y no tiene un base.
+
+### Title
+De nuevo: `public/index.html` línea 7 `<title>Actividad CSS</title>`
+
+### Meta
+De nuevo: `public/index.html` línea 5 y 6 :
+
+    <meta charset="UTF-8*">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+### HTTP-EQUIV 
+No hay, lo acepto
+
+### Script
+De nuevo: `public/index.html` línea 13 `<script charset="utf-8" src="./bundle.js"></script>`
+
+### Link
+De nuevo: `public/index.html` línea 8 `<link rel="stylesheet" type="text/css" href="./styles.css"/>`
+
+### Style 
+No hay, que cochino poner styles así.
+
+### Elemento base
+No hay
+
+### Secciones, encabezados y encabezado y pie de página
+Esto ya se volvió tedioso, así que vamos a acelerarlo un poco.
+
+ 1. Secciones, puede encontrar un claro ejemplo de esto en `src/components/Card.js`
+ 2. Encabezados, puede ver `src/pages/*.js` -> `<h1>Guardianes de la galaxia</h1>`
+ 3. Encabezado: `src/components/navbar.js`
+ 4. Pie de página `src/components/footer.js`
+
+### Blockquote
+No hay
+
+### Details
+No hay
+
+### Figure
+No hay
+
+### Agrupando elementos
+Pues no hay ningún `<pre />`, ni `<ul>`, u `<ol>` ni `<cite />` De ahí en fuera si hay lo demás. 
+Digo, si no se iban a ocupar pues como que no había que meterlos con calzador. En dado caso hubiera especificado **Quiero los siguientes elementos: **.
+
+> ¿No?
+
+Además hicimos una tarea de posibles elementos a usar, no siempre se deben usar todos:
+> ¿No?
+
+### Conclusión de Sesión_10.pdf
+**No me pondré un 100%, pero digamos que entre el 85% - 90% de lo que se habla en esta presentación, esta presente en la tarea**
+
+## Sesión_11a.pdf
+
+### Formato en algunas palabras
+Ok en `src/components/Cards.js` línea 33 `<b> Personajes del cómic: </b>`. 
+
+### Selectores
+Como los que muestra tenemos muchísimos, por ejemplo:
+De la línea 8 a la 17 de `src/styles/base/_base.css` tenemos:
+
+    body {
+	    background-color: #212121;
+	    color: #fff;
+	    font-family: 'Poppins', sans-serif;   
+	    font-size: 16px;
+	    height:100%;
+	    letter-spacing: 2px;
+	    margin:0;
+	    padding:0;
+    }
+¿Sigue sin ser suficiente?
+
+En `src/styles/components/_footer.css` en la línea 13 a la 14:
+
+    .footer  >  p {
+	    margin-left: 5%;
+    }
+Y si quiere ver más revise todo `src/styles/components/_card.css`, ahí encontrará muuuuchos.
+
+### Unidades
+Solamente use las relativas y los pixeles.
+
+    body { 
+        font-size: 16px;
+    }
+Y ya todo lo demás sería relativo a esto.
+
+### Viewport
+En `public/index.html` en la línea 6 `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+### VM y otras medidas
+En `src/styles/components/_navbar.css`:
+
+    .nav  >  #menuButton:checked  +  .nav-links {
+	    height: calc(100vh  -  50px);
+	    overflow-y: auto;
+    }
+
+### Uso de %
+Hay muchos ejemplos, uno de ellos en `src/styles/components/_banner-image.css`: 
+
+    .banner-image {
+	    height: auto;
+	    max-height: 475px;
+	    width: 100%;
+    }
+
+### Color
+Ni se diga, busque, hay muchos. En cada archivo de `src/styles` hay al menos uno.
+
+### Padding y margin
+Igual, hay muchos , si bien no se ocuparon al mismo tiempo, existen.
+En `src/styles/base/_base.css`:
+
+    body {
+	    margin:0;
+	    padding:0;
+    }
+En `src/styles/components/_card.css` hay muchos ejemplos, si bien no se uso directo `margin`, se ocupo cosas como `margin-top` o `margin-bottom.`
+De los paddings ni se diga hay en `src/styles/components/_card.css`, `src/styles/base/_base.css` y `src/styles/components/_navbar.css`
+
+### Haciendo énfasis en un provedor
+
+No hay
+
+### Archivos de hojas de estilo
+Todo lo que hay en `src/styles` más el generado en `public/styles.css`.
+
+### Selectores
+
+ 1. De atributo no hay ningúno
+ 2. De elemento si hay, muchos en `src/styles/components/_card.css`.
+ 3. De clase, hay un montón en todo `src/styles`
+ 4. De id, hay en `src/styles/components/_navbar`, revise la línea 51 por ejemplo, `.nav  >  #menuButton`.
+ 5. Selectores de pseudoclase, hay muchos, por ejemplo en `src/styles/components/_card.css` línea 106 `.card:hover`.
+ 6. Y de los siguientes hay algunos como :first-child.
+
+### Conclusión de Sesión_11a.pdf
+Así que de nuevo podemos decir que de esta sección entre el **90%-95 ** de lo visto en clase estuvo presente.
+
+## Sesión12Unir.pdf
+
+### Span 
+Si hay span, lamento decírselo pero en `src/components/Card.js` en la línea 15-16.
+
+    <span class="tooltiptext">
+	    {`${c.name}: ${c.description}`}
+    </span>
+
+### Modelo de caja
+Pues la clase `src/styles/components/_card.css` me parece un ejemplo perfecto de lo que es un modelo de caja. 
+Si bien el box-sizing se uso solo en `src/styles/base/_base.css`, se uso.
+
+### Organización de contenidos
+Si aquí se refería al uso de `display`, pues `src/styles/components/_navbar.css` tiene muchos ejemplos de esto, donde se usa `inline`, `inline-block`, `none`.
+
+### Alinear elementos con diferentes atributos. 
+Pues me parece que si está, el ejemplo son algunos paddings y eso.
+
+### Selector element > element
+Realmente no lo use como tal, pero hay muchos ejemplos de `.classA > .classB > p`
+
+### Float
+Hay ejemplos en
+
+`src/styles/components/_navbar.css`, en la línea 34-37:
+
+    .nav  >  .nav-links {
+        display: inline-flex;
+        float: right;
+    } 
+
+`src/styles/components/_card.css`, en la línea 80-88:
+
+    .card > .info > .heroes-info > .character-info:nth-child(odd) > img {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .card > .info > .heroes-info > .character-info:nth-child(even) > img {
+        float: right;
+        margin-left: 10px;
+    }
+
+### Clear
+No se uso
+
+### nth-of-type
+En `src/styles/components/_card.css` de la línea 80-87
+
+    .card > .info > .heroes-info > .character-info:nth-child(odd) > img {
+        float: left;
+        margin-right: 10px;
+    }
+    
+    .card > .info > .heroes-info > .character-info:nth-child(even) > img {
+        float: right;
+        margin-left: 10px;
+    }
+
+### Conclusión de Sesión12Unir.pdf
+**De esta presentación no podemos dudar que del 97%-98% de lo que se mostró está presente.**
+
+
+## Descripción anterior
 Este repositorio esta hecho para la tarea de hojas de estilo. Recomiendo leer este documento en su totalidad, pues ayudará a comprender cómo se realizó. **Como aclaración importante, para poder visualizar correctamente todo se puso en un servidor la página. En dado caso de querer correrlo localmente, hasta abajo hay instrucciones de como hacerlo.**
 
 [Link a la página](http://actividadcss.totoringo.com/)
@@ -57,3 +339,5 @@ Sin embargo, si aún quedan dudas, en la sección de abajo dejo un pequeño vide
  4. Entrar en la carpeta del proyecto `cd actividad-css`
  5. Dentro de la carpeta del proyecto instalar los módulos necesarios `yarn install`
  6. Correr con  `yarn serve`
+
+
