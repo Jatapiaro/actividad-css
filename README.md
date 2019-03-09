@@ -1,3 +1,4 @@
+
 # Actividad Hojas de Estilo
 
 Debido al comentario:
@@ -22,7 +23,7 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
 
 # Hace  referencia a documentos de javascript que no son el tema que se está  evaluando en este curso.
-Precisamente por eso hice el video, porque sabía que podría traer problemas. Desde que escuche decir que usted usaba Bootstrap y no Webpack (module bundler) (veáse Yeoman, Gulp, a mi me enseñaron un montón en la carrera y webpack lo aprendí trabajando), me dio a entender que desconoce muchas cosas actuales sobre desarrollo. Así que por eso hice el video, para que viera que ahí hay HTML, que hay Javascript pero que lo importante seguían siendo el CSS. Para eso se hizo el video, para que no se dijera que no hay nada de contenido HTML, y para enfatizar que aunque había JS, lo importante era CSS. Parte de hacerlo así es separar los archivos, tener un mejor orden, y no importar un montón de archivos a un documento.**Así que sí, sé que JS no es el tema de esta clase aunque la clase se llame "Lenguajes", pero lo que se pidió de CSS está ahí**. A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se había usado y ya, precisamente para que, si es una tarea de CSS, pues se evaluaran los estilos de CSS. 
+Precisamente por eso hice el video, porque sabía que podría traer problemas. Desde que escuche decir que usted usaba Bootstrap y no Webpack (module bundler), me dio a entender que desconoce muchas cosas actuales sobre desarrollo. Así que por eso hice el video, para que viera que ahí hay HTML, que hay Javascript pero que lo importante seguían siendo el CSS. Para eso se hizo el video, para que no se dijera que no hay nada de contenido HTML, y para enfatizar que aunque había JS, lo importante era CSS. Parte de hacerlo así es separar los archivos, tener un mejor orden, y no importar un montón de archivos a un documento.**Así que sí, sé que JS no es el tema de esta clase aunque la clase se llame "Lenguajes", pero lo que se pidió de CSS está ahí**. A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se había usado y ya, precisamente para que, si es una tarea de CSS, pues se evaluaran los estilos de CSS. 
 
 > ¿no?
 
@@ -448,6 +449,23 @@ Ahora marquemos cada parte de los criterios a evaluar:
 Para hacer todo el research y ver que las cosas si se cumplen, baje sus presentaciones y fui diapositiva por diapositiva, verificando lo que se decía, y **haciendo uso adecuado de VS code** fui buscando cada propiedad.
 ¿Cómo?. Pues simplemente fui a la sección search y buscaba. Ahí veía cada archivo. Le daba clic y veía las cosas,
 En dado caso de que se quisiera ir directo a un archivo el comando **Ctrl+P** o **Cmd+P** le permite buscar un archivo rápidamente e ir a él.
+
+Creo que lo de JS debió ser lo menos importante. Me gusta entregar tareas que al menos hagan algo. Aquí al menos aprendí a ver como funcionaba el API de Marvel. Quería traer datos reales, y ver una forma interesante de desplegarlo. 
+
+Además quiero aclarar que si quería algo 100% especifico, lo ponga tal cual en la tarea. Desde día uno, las tareas de esta materia tienen ese problema, no se entiende ni se específica exactamente que se quiere, debemos esperar a que en la clase se diga que es y esto impide adelantar a veces un podo de las mismas. Por no decir que puede llevar a hacer las cosas a tontas a locas y a ciegas. 
+
+En la sesión 14 se dijo algo similar a esto:
+
+**Profesora:** Hacer una página principal, que tenga algunos hypervinculos, pero repasar los selectores y como se aplican. 
+
+En la  grabación 11_sesión 13: 
+**Profesora (1:05:15)** Que tienen que hacer como tarea. Pues es diseñar una página. Ok prácticamente incluyendo hojas de estilo, incluyendo a los elementos que solicita. Lo pueden hacer como quieran, ya sea como documento embebido o como un documento css adicional. Manejar sobre todo algunos de los formatos que hemos vistos hasta el momento. Puede ser la página sencilla lo importante es ir enriqueciendo los contenidos, aquí...uy la batería se esta agotando.
+
+**Pregunta**  Profesora, tengo tres preguntas de la tarea. ¿Exactamente qué hay que hcaer?, la segunda ¿Es obligatorio utilizar CSS o podemos utilizar SCSS (a fin de cuentas se traspila a CSS)? También he escuchado que ha hablado de que después va a mostrar algunas plantillas. Significa que ¿va a mostrar bootstrap? ¿en la tarea se puede hacer uso de Bootstrap? **Por cierto ¿cuáles son los elementos que solicita?**
+
+**Profesora (1:06:57) [Respondiendo a la pregunta anterior]**:  Es CSS... o sea si pero es CSS lo que vamos a ocupar......(Responde a la pregunta ¿cuáles son los elementos que solicita?):  **No especifica ahí los elementos que solicita, ok, pero al menos incluir algún encabezado, un pie de página, un cuerpo, ok y elementos prácticamente de los que hemos visto en las sesiones. **
+
+Entonces, ¿ya leyeron lo que hay arriba? Me van a decir que después de todo esto que acabo de documentar, **no cumplí con los elementos  de la tarea**. Creo que en lo que documentó se ve claramente que use el contenido de las presentaciones.
 
 Realmente si después de esto sigue habiendo dudas, con gusto seguiré aclarando más cosas.
  
