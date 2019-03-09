@@ -412,8 +412,7 @@ Use bastante flex, solo revise `src/styles/components/*.css`. Y verá que header
 De igual forma.
 Revise `src/styles/components/*.css`. Y verá que header, footer y el navbar usan @media. Así que aquí se cumple otro punto de su evaluación:
 
-> Se valorará el buen uso de fondo, fuentes, y color que se asigne a las
-> hojas de estilo.
+> Se valorará favorablemente la realización de hojas de estilos alternativas para la impresión y dispositivos móviles
 
 ### Conclusión de Sesión14_1.pptx
 Usted evalúe, pero creo que aquí también hay bastante de lo visto en clase.
