@@ -12,13 +12,15 @@ El cual se me fue hecho en la entrega de la tarea, en la cual, se me fue asignad
 A continuación, refutare cada parte del comentario:
 
 # ¿No incluyó más que una pantalla con encabezado y no aparece la información del video?
-Como se específica en la sección ahora denominada **Descripción anterior**, hay unas letras en negritas especificando, que para visualizar todo de manera correctamente, se puso un servidor con la página. Si se quisiera correrlo de manera local, existen instrucciones precisas al final de este documento. Esto porque React hace Client Size Rendering en lugar de Server Side Rendering. 
+Como se específica en la sección ahora denominada **Descripción anterior**, hay unas letras en negritas especificando, que para visualizar todo de manera correctamente, se puso un servidor con la página. Si se quisiera correrlo de manera local, existen instrucciones precisas al final de este documento. Esto porque React hace Client Side Rendering en lugar de Server Side Rendering. 
 Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.be/AguOjUaDg8k?t=601) se dice claramente que de querer abrir el archivo directamente **NO VA A FUNCIONAR**. Ahora si quisiera correrlo así tal cual con un clic, pues bueno:
 
  1. Instale AMPPS ya trae todo
  2. Abra los archivos de la aplicación AMMP y busqué la carpeta www
- 3. Ponga la carpeta del código
- 4. Entre a `public` y de clic en `index.html` y funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
+ 3. Ponga la carpeta del código en la carpeta www
+ 4. En la interfaz de AMMPS de clic en el icono del Mundo
+ 5. Navege a `el_proyecto/public/index.html`
+ 6. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
 
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
 
