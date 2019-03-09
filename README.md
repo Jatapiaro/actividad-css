@@ -7,7 +7,7 @@ Debido al comentario:
 > referencia a documentos de java script,que no son el tema que se está
 > evaluando en este curso. Falto hacer énfasis en los temas vistos.
 
-El cual se me fue hecho en la entrega de la tarea, en la cual, se me fue asignada una calificación de 5, he decidido actualizar este README, pues puede ser que a pesar del grado académico, no sepa leer código, leer instrucciones o ver un video de manera atenta.
+El cual se me fue hecho en la entrega de la tarea, en la cual, se me fue asignada una calificación de 5, he decidido actualizar este README, pues puede ser que no haya sabido leer todo el código que hay, leer instrucciones o ver un video de manera atenta.
 A continuación, refutare cada parte del comentario:
 
 # ¿No incluyó más que una pantalla con encabezado y no aparece la información del video?
@@ -22,7 +22,7 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
 
 # Hace  referencia a documentos de javascript que no son el tema que se está  evaluando en este curso.
-Precisamente por eso hice el video, porque sabía que podría traer problemas. Desde que escuche decir que usted usaba Bootstrap y no Webpack, me dio a entender que desconoce muchas cosas actuales sobre desarrollo. Así que por eso hice el video, para que viera que ahí hay HTML, que hay Javascript pero que lo importante seguían siendo el CSS. Para eso se hizo el video, para que no se dijera que no hay nada de contenido HTML, y para enfatizar que aunque había JS, lo importante era CSS. Parte de hacerlo así es separar los archivos, tener un mejor orden, y no importar un montón de archivos a un documento.**Así que sí, sé que JS no es el tema de esta clase aunque la clase se llame "Lenguajes", pero lo que se pidió de CSS está ahí**. A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se había usado y ya, precisamente para que, si es una tarea de CSS, pues se evaluaran los estilos de CSS. 
+Precisamente por eso hice el video, porque sabía que podría traer problemas. Desde que escuche decir que usted usaba Bootstrap y no Webpack (module bundler) (veáse Yeoman, Gulp, a mi me enseñaron un montón en la carrera y webpack lo aprendí trabajando), me dio a entender que desconoce muchas cosas actuales sobre desarrollo. Así que por eso hice el video, para que viera que ahí hay HTML, que hay Javascript pero que lo importante seguían siendo el CSS. Para eso se hizo el video, para que no se dijera que no hay nada de contenido HTML, y para enfatizar que aunque había JS, lo importante era CSS. Parte de hacerlo así es separar los archivos, tener un mejor orden, y no importar un montón de archivos a un documento.**Así que sí, sé que JS no es el tema de esta clase aunque la clase se llame "Lenguajes", pero lo que se pidió de CSS está ahí**. A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se había usado y ya, precisamente para que, si es una tarea de CSS, pues se evaluaran los estilos de CSS. 
 
 > ¿no?
 
