@@ -35,7 +35,7 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
 
 Si le da mucha flojera hacer eso pues también puede correrlo con webpack
  1. Instalar Node
- 2. Instalar yarn desde la terminal con `npm i -g yarn`
+ 2. Instalar yarn desde la terminal con `npm i yarn -g`
  3. Descargar el proyecto con  `git clone https://github.com/Jatapiaro/actividad-css`
  4. cd `actividad-css`
  5. Correr `yarn install`
