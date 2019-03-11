@@ -45,6 +45,8 @@ A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se 
 Bien, ya que se habla de que falto hacer énfasis en los temas vistos, iremos paso a paso, presentación por presentación. Y descubriremos juntos, si se hizo énfasis o no.
 > ¿no?
 
+Para ello todas las presentaciones aquí mencionadas se han subido a la siguiente [liga](https://drive.google.com/drive/folders/1HBocv_ot2Wl-I8ynx_T6z9yjW0a06u6U?usp=sharing)
+
 ## 1. Sesión_10.pdf
 Comenzaremos por la sesión 10. Donde habló de los editores de texto. Yo ocupe **VS Code**, así que considero que el siguiente criterio de evaluación de la tarea, fue satisfactorio:
 
