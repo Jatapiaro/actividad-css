@@ -33,7 +33,7 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
  7. Regresaremos a la interfaz con todos los dominios dando clic en el icono de ammps de la parte superior izquierda, y luego seleccionando nuevamente configure domains. Aquí tenemos dos opciones, dar clic en el dominio o simplemente ingresar el dominio directo en nuestro navegador. Si le pusimos **actividad.css** en nuestro navegador, en la URL prondremos **actividad.css**
  8. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
 
-Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.Si le da mucha flojera hacer eso pues también puede correrlo con webpack
+Si le da mucha flojera hacer eso pues también puede correrlo con webpack
  1. Instalar Node
  2. Instalar yarn desde la terminal con `npm i -g yarn`
  3. Descargar el proyecto con  `git clone https://github.com/Jatapiaro/actividad-css`
