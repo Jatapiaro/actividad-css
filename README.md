@@ -1,4 +1,6 @@
 
+
+
 # Actividad Hojas de Estilo
 
 Debido al comentario:
@@ -9,7 +11,12 @@ Debido al comentario:
 > evaluando en este curso. Falto hacer énfasis en los temas vistos.
 
 El cual se me fue hecho en la entrega de la tarea, en la cual, se me fue asignada una calificación de 5, he decidido actualizar este README, pues puede ser que no haya sabido leer todo el código que hay, leer instrucciones o ver un video de manera atenta.
-A continuación, refutare cada parte del comentario:
+
+Para que no se diga que modifique el código para cumplir con el contenido, se invita a los interesados a revisar el historial de commits: [https://github.com/Jatapiaro/actividad-css/commits/master](https://github.com/Jatapiaro/actividad-css/commits/master)
+Donde se puede apreciar que el último commit de código para la tarea fue hecho el **18 de febrero de febrero** mismo día que la fecha de entrega de la tarea. Ese commit tiene el ID [6b53abb27f86c1de1b0be7ca7b411eb4e07a866f](https://github.com/Jatapiaro/actividad-css/commit/6b53abb27f86c1de1b0be7ca7b411eb4e07a866f) .
+Los siguientes commits comienzan a partir del 9 de marzo y son todas las actualizaciones que hice de este README para defender mi calificación.
+
+**A continuación, refutare cada parte del comentario puesto en la entrega de la tarea, y espero que se lea completa y atentamente, como debió leerse el README o verse el video adjunto en la entrega inicial**
 
 # ¿No incluyó más que una pantalla con encabezado y no aparece la información del video?
 Como se específica en la sección ahora denominada **Descripción anterior**, hay unas letras en negritas especificando, que para visualizar todo de manera correctamente, se puso un servidor con la página. Si se quisiera correrlo de manera local, existen instrucciones precisas al final de este documento. Esto porque React hace Client Side Rendering en lugar de Server Side Rendering. 
@@ -25,7 +32,12 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
 
 # Hace  referencia a documentos de javascript que no son el tema que se está  evaluando en este curso.
-Precisamente por eso hice el video, porque sabía que podría traer problemas. Desde que escuche decir que usted usaba Bootstrap y no Webpack (module bundler), me dio a entender que desconoce muchas cosas actuales sobre desarrollo. Así que por eso hice el video, para que viera que ahí hay HTML, que hay Javascript pero que lo importante seguían siendo el CSS. Para eso se hizo el video, para que no se dijera que no hay nada de contenido HTML, y para enfatizar que aunque había JS, lo importante era CSS. Parte de hacerlo así es separar los archivos, tener un mejor orden, y no importar un montón de archivos a un documento.**Así que sí, sé que JS no es el tema de esta clase aunque la clase se llame "Lenguajes", pero lo que se pidió de CSS está ahí**. A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se había usado y ya, precisamente para que, si es una tarea de CSS, pues se evaluaran los estilos de CSS. 
+Precisamente, esta fue la razón por la que mande el vídeo. Desde el momento en el que pregunte si podíamos usar Webpack y usted respondió:
+
+>  Yo uso Bootstrap, nunca he usado el Webpack
+
+Me dio a entender que realmente desconoce muchas cosas actuales sobre desarrollo. Sabía que quizás podría traerme problemas haber hecho las cosas como las hice, precisamente, precisamente por eso se hizo el video, para que usted viera que si la actividad es **Hojas de estilo**, se evaluaran las hojas de estilo; y que entendiera donde está el HTML y la función que tuvo JavaScript en la entrega; la cual únicamente fue traer datos. Sí quise usar React fue para que viera como cada componente, tenía su propio estilo.  **Así que sí, sé que JS no es el tema de esta clase aunque la clase se llame "Lenguajes", pero lo que se pidió de CSS está ahí**. Y ni se diga HTML, las cosas ahí también están.
+A fin de cuentas, yo sabía que JS no se iba a evaluar, solo expliqué cómo se había usado y ya, precisamente para que, si es una tarea de CSS, pues se evaluaran los estilos de CSS. 
 
 > ¿no?
 
@@ -121,7 +133,7 @@ No hay
 
 ### 1.20 Agrupando elementos
 Pues no hay ningún `<pre />`, ni `<ul>`, u `<ol>` ni `<cite />` De ahí en fuera si hay lo demás. 
-Digo, si no se iban a ocupar pues como que no había que meterlos con calzador. En dado caso hubiera especificado **Quiero los siguientes elementos: **.
+Digo, si no se iban a ocupar pues como que no había que meterlos con calzador. En dado caso hubiera especificado **Quiero los siguientes elementos:**.
 
 > ¿No?
 
@@ -218,7 +230,7 @@ Todo lo que hay en `src/styles` más el generado en `public/styles.css`.
  6. Y de los siguientes hay algunos como :first-child.
 
 ### 2.12 Conclusión de Sesión_11a.pdf
-Así que de nuevo podemos decir que de esta sección entre el **90%-95 ** de lo visto en clase estuvo presente.
+Así que de nuevo podemos decir que de esta sección entre el **90%-95** de lo visto en clase estuvo presente.
 
 ## 3. Sesión12Unir.pdf
 
@@ -241,7 +253,7 @@ Creo que con eso se cumple el otro criterio a evaluar:
 Si aquí se refería al uso de `display`, pues `src/styles/components/_navbar.css` tiene muchos ejemplos de esto, donde se usa `inline`, `inline-block`, `none`.
 
 ### 3.4 Alinear elementos con diferentes atributos. 
-Pues me parece que si está, el ejemplo son algunos paddings y eso.
+Pues me parece que sí está, el ejemplo son algunos paddings y eso.
 
 ### 3.5 Selector element > element
 Realmente no lo use como tal, pero hay muchos ejemplos de `.classA > .classB > p`
@@ -429,7 +441,8 @@ Usted evalúe, pero creo que aquí también hay bastante de lo visto en clase.
 
 ### 6.2 Evaluación de fuentes y colores
 
->     Se valorará el buen uso de fondo, fuentes, y color que se asigne a las hojas de estilo.
+> Se valorará el buen uso de fondo, fuentes, y color que se asigne a las
+> hojas de estilo.
 
 Pues creo que se ve bien, pero debería evaluarlo usted. Los colores contrastan y permiten ver el contenido. Quizás falla un poco en el tooltip de la información de cada héroe. 
 
@@ -447,6 +460,24 @@ Ahora marquemos cada parte de los criterios a evaluar:
  3. **Se valorará el uso adecuado de editores de texto como pueden ser: Notepad++, Sublime Text, CoffeCup Free Editor o hasta el mismo blog de notas:** Hasta en el video se ve que uso VS Code. :white_check_mark:
  4. **Se valorará el buen uso de fondo, fuentes, y color que se asigne a las hojas de estilo:** Lo dejo a su criterio. Ya mencione en la sección **6.2** lo que puede ser que este mal.  :warning:
  5. **Se valorará el adecuado uso de propiedades y valores de las referencias CSS 2.1:** Pues esta es imposible de cumplir para cualquiera. Ya explique porque, en la sección **6.1**. Ni en clase esto se cumplió pues tan solo `box-sixing` no está disponible en esa versión. :white_check_mark::warning::x::confused: 
+
+Que digo, también hay que ver hasta como difiere su descripción de la tarea con los objetivos de la misma. Pues en los objetivos, se dice en el punto uno que:
+
+> Ser capaz de integrar los contenidos teóricos expuestos en los temas 4
+
+ Sin embargo en la descripción  de la tarea dice que de los temas 3 y 4:
+
+> Teniendo en cuenta los contenidos expuestos en los **temas 3 y 4**, además
+> de los objetivos para el diseño de la actividad, deberás utilizar las
+> hojas de estilo en las cuales ejercitará lo aprendido, pudiendo
+> utilizar cualquier editor de texto para ello pero de presencia usar
+> Notepad++, Sublime Text. Cumplir con los títulos y encabezamientos
+> adecuados, el contenido debe ser confiable y cuidando la ortografía,
+> los gráficos deben mostrar un mensaje, incluir enlaces, incluir
+> diferentes estilos y colores. Para ello deberá tener en cuenta los
+> criterios de evaluación descritos, además deberá compartirla en su
+> bitácora electrónica en la plataforma UNIR. Así mismo, subirla a la
+> dirección de la misma.
 
 Para hacer todo el research y ver que las cosas si se cumplen, baje sus presentaciones y fui diapositiva por diapositiva, verificando lo que se decía, y **haciendo uso adecuado de VS code** fui buscando cada propiedad.
 ¿Cómo?. Pues simplemente fui a la sección search y buscaba. Ahí veía cada archivo. Le daba clic y veía las cosas,
@@ -468,7 +499,12 @@ En la  grabación 11_sesión 13:
 
 **Profesora (1:06:57) [Respondiendo a la pregunta anterior]**:  Es CSS... o sea si pero es CSS lo que vamos a ocupar......(Responde a la pregunta ¿cuáles son los elementos que solicita?):  **No especifica ahí los elementos que solicita, ok, pero al menos incluir algún encabezado, un pie de página, un cuerpo, ok y elementos prácticamente de los que hemos visto en las sesiones. **
 
-Entonces, ¿ya leyeron lo que hay arriba? Me van a decir que después de todo esto que acabo de documentar, **no cumplí con los elementos  de la tarea**. Creo que en lo que documentó se ve claramente que use el contenido de las presentaciones.
+Entonces, ¿ya leyeron lo que hay arriba? Me van a decir que después de todo esto que acabo de documentar, **no cumplí con los elementos  de la tarea**. Creo que en lo que documentó se ve claramente que use el contenido de las presentaciones. Si lo que quería era un clon de su página de la pastelería, pues lo hubiera puesto **Objetivos: Clonar mi página de la pastelería y modificarla al gusto.** Que digo "clonarla" porque es tal cual un ejemplo del libro:
+
+> Robbins J. (2018). Learning Web Design: A Beginner's Guide to HTML,
+> CSS, JavaScript, and Web Design. California : O'Reilly.
+
+Finalmente, no estoy exigiendo una calificación mayor solo porque si; si me dejan el 5 o me ponen un 0 después de este documento, lo acepto, pero que así como yo acabo de hacerlo, que se me demuestre paso por paso y diapositiva por diapositiva que no cumplí con el contenido del curso.
 
 Realmente si después de esto sigue habiendo dudas, con gusto seguiré aclarando más cosas.
  
