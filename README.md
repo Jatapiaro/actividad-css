@@ -33,7 +33,17 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
  7. Regresaremos a la interfaz con todos los dominios dando clic en el icono de ammps de la parte superior izquierda, y luego seleccionando nuevamente configure domains. Aquí tenemos dos opciones, dar clic en el dominio o simplemente ingresar el dominio directo en nuestro navegador. Si le pusimos **actividad.css** en nuestro navegador, en la URL prondremos **actividad.css**
  8. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
 
-Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
+Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.Si le da mucha flojera hacer eso pues también puede correrlo con webpack
+ 1. Instalar Node
+ 2. Instalar yarn desde la terminal con `npm i -g yarn`
+ 3. Descargar el proyecto con  `git clone https://github.com/Jatapiaro/actividad-css`
+ 4. cd `actividad-css`
+ 5. Correr `yarn install`
+ 6. Correr `yarn serve`
+ 7. Entrar en el navegador a localhost:8080 u 8000 según sea el caso. De todos modos el comando le avisa a donde entrar.
+ 
+Si de nuevo le da mucha flojera esto pues bueno, todo esta a un clic de distancia en:
+[http://actividadcss.totoringo.com](http://actividadcss.totoringo.com)
 
 # Hace  referencia a documentos de javascript que no son el tema que se está  evaluando en este curso.
 Precisamente, esta fue la razón por la que mande el vídeo. Desde el momento en el que pregunte si podíamos usar Webpack y usted respondió:
