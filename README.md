@@ -22,12 +22,16 @@ Los siguientes commits comienzan a partir del 9 de marzo y son todas las actuali
 Como se específica en la sección ahora denominada **Descripción anterior**, hay unas letras en negritas especificando, que para visualizar todo de manera correctamente, se puso un servidor con la página. Si se quisiera correrlo de manera local, existen instrucciones precisas al final de este documento. Esto porque React hace Client Side Rendering en lugar de Server Side Rendering. 
 Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.be/AguOjUaDg8k?t=601) se dice claramente que de querer abrir el archivo directamente **NO VA A FUNCIONAR**. Ahora si quisiera correrlo así tal cual con un clic, pues bueno:
 
+
  1. Instale AMPPS ya trae todo
  2. Abra los archivos de la aplicación AMMPS y busqué la carpeta www
  3. Ponga la carpeta del código en la carpeta www
- 4. En la interfaz de AMMPS de clic en el icono del Mundo
- 5. Navegue a `el_proyecto/public/index.html`
- 6. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
+ 4. Damos clic en el icono Home de la interfaz de ammps
+ 5. En la sección de configure, buscamos configure domains
+ 6. Añadimos uno nuevo, le ponemos el nombre que sea, pero en el domain path ponemos `/Applications/AMPPS/www/nombre_de_la_carpeta/public`
+ 6. Creamos el dominio
+ 7. Nos regresará a la interfaz con todos los dominios, aquí tenemos dos opciones, dar clic en el dominio o simplemente ingresar el dominio directo en nuestro navegador. Si le pusimos **actividad.css** en nuestro navegador, en la URL prondremos **actividad.css**
+ 8. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
 
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
 
