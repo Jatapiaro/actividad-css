@@ -513,7 +513,7 @@ En la  grabación 11_sesión 13:
 
 **Pregunta**  Profesora, tengo tres preguntas de la tarea. ¿Exactamente qué hay que hacer?, la segunda ¿Es obligatorio utilizar CSS o podemos utilizar SCSS (a fin de cuentas se transpila a CSS)? También he escuchado que ha hablado de que después va a mostrar algunas plantillas. Significa que ¿va a mostrar bootstrap? ¿en la tarea se puede hacer uso de Bootstrap? **Por cierto ¿cuáles son los elementos que solicita?**
 
-**Profesora (1:06:57) [Respondiendo a la pregunta anterior]**:  Es CSS... o sea si pero es CSS lo que vamos a ocupar......(Responde a la pregunta ¿cuáles son los elementos que solicita?):  **No especifica ahí los elementos que solicita, ok, pero al menos incluir algún encabezado, un pie de página, un cuerpo, ok y elementos prácticamente de los que hemos visto en las sesiones. **
+**Profesora (1:06:57) [Respondiendo a la pregunta anterior]**:  Es CSS... o sea si pero es CSS lo que vamos a ocupar......(Responde a la pregunta ¿cuáles son los elementos que solicita?):  **No especifica ahí los elementos que solicita, ok, pero al menos incluir algún encabezado, un pie de página, un cuerpo, ok y elementos prácticamente de los que hemos visto en las sesiones.**
 
 Entonces, ¿ya leyeron lo que hay arriba? Me van a decir que después de todo esto que acabo de documentar, **no cumplí con los elementos  de la tarea**. Creo que en lo que documentó se ve claramente que use el contenido de las presentaciones. Si lo que quería era un clon de su página de la pastelería, pues lo hubiera puesto **Objetivos: Clonar mi página de la pastelería y modificarla al gusto.** Que digo "clonarla" porque es tal cual un ejemplo del libro:
 
