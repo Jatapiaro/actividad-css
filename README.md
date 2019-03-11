@@ -30,7 +30,7 @@ Ahora, en el video que adjunto, exactamente en el minuto [10:00,](https://youtu.
  5. En la sección de configure, buscamos configure domains
  6. Añadimos uno nuevo, le ponemos el nombre que sea, pero en el domain path ponemos `/Applications/AMPPS/www/nombre_de_la_carpeta/public`
  6. Creamos el dominio
- 7. Nos regresará a la interfaz con todos los dominios, aquí tenemos dos opciones, dar clic en el dominio o simplemente ingresar el dominio directo en nuestro navegador. Si le pusimos **actividad.css** en nuestro navegador, en la URL prondremos **actividad.css**
+ 7. Regresaremos a la interfaz con todos los dominios dando clic en el icono de ammps de la parte superior izquierda, y luego seleccionando nuevamente configure domains. Aquí tenemos dos opciones, dar clic en el dominio o simplemente ingresar el dominio directo en nuestro navegador. Si le pusimos **actividad.css** en nuestro navegador, en la URL prondremos **actividad.css**
  8. Funcionará (ya trae el `.htaccess` para que funcione y lo trajo desde su entrega)
 
 Si no es el caso, simplemente vaya al final de este README y encontrará la forma de correrlo usando webpack.
